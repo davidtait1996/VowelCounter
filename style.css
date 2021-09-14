@@ -15,7 +15,7 @@ h1 {
 }
 
 input[type=text] {
-    transition: height .4s linear;
+    transition: width .4s linear;
 }
 
 input[type=text]:focus{
