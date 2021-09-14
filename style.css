@@ -1,0 +1,26 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
+
+.textForm{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.checkButton{
+    text-align: center;
+}
+
+button {
+    background-color: green;
+    border-color: rgb(83, 170, 83);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}

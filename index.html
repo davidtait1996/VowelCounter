@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vowel Counter</title>
+	<!-- Latest compiled and minified CSS -->
+	<link 	
+		rel="stylesheet" 
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"
+	>
+	<!-- Linking CSS -->
+	<link 	
+		rel="stylesheet" 
+		type="text/css" 
+		href="style.css"
+	>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div>
+        <h1>Vowel Counter</h1>
+    </div>
+    <div class = "formArea">
+        <div class = textRow>
+            <form class = "textForm">
+                <input type="text" id="text" name="text" size="50">
+            </form>
+        </div>
+        <br>
+        <div class = "checkButton">
+            <button type='button' onClick="lookForVowels()">Check</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="logic.js"></script>
+</body>
