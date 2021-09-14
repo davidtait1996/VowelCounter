@@ -11,6 +11,16 @@ h1 {
 .textForm{
     margin: 0 auto;
     text-align: center;
+
+}
+
+input[type=text] {
+    transition: height .4s linear;
+}
+
+input[type=text]:focus{
+    border: 3px solid #555;
+    width: 50%;
 }
 
 .checkButton{
